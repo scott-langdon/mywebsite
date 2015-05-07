@@ -3,7 +3,7 @@
 
   <head>
     <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
-    
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
     <link rel="stylesheet" href="main.css">
   </head>
@@ -18,8 +18,8 @@
             
         </ul>
         <ul>
-          <a href='root_path'>Home</a> 
-          <a href='about_path'>About</a>
+          <%= link_to "Home", root_path %>
+          <%= link_to "About", about_path %>
           <%= link_to "Portfolio", portfolio_path %>
         </ul>
       </div>
